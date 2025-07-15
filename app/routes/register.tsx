@@ -51,18 +51,7 @@ export default function Register() {
                                         placeholder="e.g., John Doe"
                                     />
                                 </div>
-                                <div>
-                                    <label htmlFor="username" className="text-slate-900 text-sm font-medium mb-2 block">
-                                        Username
-                                    </label>
-                                    <input
-                                        id="username"
-                                        name="username"
-                                        type="text"
-                                        className="text-slate-900 bg-white border border-gray-300 w-full text-sm px-4 py-2 sm:py-3 rounded-md outline-blue-500 focus:ring-2 focus:ring-blue-500"
-                                        placeholder="e.g., johndoe123"
-                                    />
-                                </div>
+                               
                                 <div>
                                     <label htmlFor="email" className="text-slate-900 text-sm font-medium mb-2 block">
                                         Email Id
@@ -101,18 +90,7 @@ export default function Register() {
                                         placeholder="Enter password"
                                     />
                                 </div>
-                                <div>
-                                    <label htmlFor="cpassword" className="text-slate-900 text-sm font-medium mb-2 block">
-                                        Confirm Password
-                                    </label>
-                                    <input
-                                        id="cpassword"
-                                        name="cpassword"
-                                        type="password"
-                                        className="text-slate-900 bg-white border border-gray-300 w-full text-sm px-4 py-2 sm:py-3 rounded-md outline-blue-500 focus:ring-2 focus:ring-blue-500"
-                                        placeholder="Enter confirm password"
-                                    />
-                                </div>
+                               
                                 <div>
                                     <label htmlFor="logo" className="text-slate-900 text-sm font-medium mb-2 block">
                                         Logo (Optional)

@@ -1,9 +1,9 @@
 import { json } from "@remix-run/node"; // Note: Check Remix docs for current usage if warning persists
 import { useLoaderData } from "@remix-run/react";
-import InventoryAlert from "~/components/dashboard/InventoryAlert";
-import RecentSales from "~/components/dashboard/RecentSales";
-import SalesTrends from "~/components/dashboard/SalesTrends";
-import StatsCards from "~/components/dashboard/StatsCards";
+import InventoryAlert from "../components/dashboard/InventoryAlert";
+import RecentSales from "../components/dashboard/RecentSales";
+import SalesTrends from "../components/dashboard/SalesTrends";
+import StatsCards from "../components/dashboard/StatsCards";
 
 // Types
 type RecentSale = {
